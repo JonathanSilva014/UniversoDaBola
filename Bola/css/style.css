@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #5F9EA0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/****************************************************PARTE DE CIMA**************************************************/
+
+#area-logo h2{
+    text-align: center;
+    font-size:50px;
+
+}
+#area-logo img{
+    float: right;
+}
+
+#Cabeca img{
+    float: right;
+    padding-right: 180px;
+}
+
+ul{
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    width: 100%;
+    background: #159cb0 url(../img/fundo-horizontal.png) repeat-x;
+    float: left;
+    
+}
+
+ul li {
+    border-left: 3px solid #48D1CC;
+    float: left;
+    text-align: center;
+}
+
+ul a{
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+a:hover{
+    background: #4682B4;
+}
+/*********************************************CABEÇA*****************************************************************/
+
+
+
+/***********************************************CENTRO***************************************************************/
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.postagem2{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    position: relative;
+    right: 20px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+.postagem1 h2{
+    color: black;
+}
+.data-postagem{
+    font-size: small;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+#area-lateral{
+    background:#5F9EA0;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.conteudo-lateral h3{
+    background:#ccc;
+    padding: 5px;
+}
+
+
+.postagem1{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+
+/*************************************************CENTRO************************************************************/
+
+
+/****************************************************FINAL*****************************************************/
+
+#rodape{
+    background:#4682B4;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+}
+
